@@ -1,0 +1,76 @@
+/* Poori page ka basic look */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #2c5282;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+/* Main content box */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  color: #2c5282;
+  border-bottom: 2px solid #2c5282;
+  padding-bottom: 5px;
+}
+
+.item h3 {
+  margin-bottom: 0;
+}
+
+.item p {
+  margin-top: 4px;
+}
+
+/* Skills ko badges ki tarah dikhana */
+.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  background: #bee3f8;
+  color: #2a4365;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+a {
+  color: #2b6cb0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
